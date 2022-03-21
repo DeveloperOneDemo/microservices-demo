@@ -1,0 +1,6 @@
+package com.departmentservice.service;
+
+@Service
+public class DepartmentService {
+
+}

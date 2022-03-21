@@ -1,0 +1,8 @@
+package com.departmentservice.entity;
+
+@Entity
+public class Department {
+
+	
+	
+}

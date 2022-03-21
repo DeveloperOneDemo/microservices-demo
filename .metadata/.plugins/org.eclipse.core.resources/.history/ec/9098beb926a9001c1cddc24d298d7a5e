@@ -1,0 +1,12 @@
+package com.departmentservice.entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Department {
+
+	@Id
+	private int departmentId;
+	private String departmentName;
+	
+}

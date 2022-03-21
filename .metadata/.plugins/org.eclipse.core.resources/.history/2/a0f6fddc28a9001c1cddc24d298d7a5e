@@ -1,0 +1,6 @@
+package com.departmentservice.controller;
+
+@RestController
+public class DepartmentController {
+
+}

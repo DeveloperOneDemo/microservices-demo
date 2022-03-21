@@ -1,0 +1,20 @@
+package com.departmentservice.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.departmentservice.entity.Department;
+
+@RestController // a combination of @Controller and @ResponseBody
+@RequestMapping("/api/deparmtents")
+public class DepartmentController {
+	
+	// http://localhost:5001/api/departments/
+	@PostMapping("/")
+	public Department saveDepartment(@RequestBody Department department) {
+		
+	}
+
+}

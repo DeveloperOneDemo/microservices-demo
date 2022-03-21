@@ -1,0 +1,17 @@
+package com.departmentservice.service;
+
+import org.springframework.stereotype.Service;
+
+import com.departmentservice.dao.DepartmentRepository;
+
+@Service
+public class DepartmentService {
+
+	@Autowired
+	DepartmentRepository departmentRepository;
+	
+	public Department saveDepartment(Department department) {
+		
+	}
+	
+}

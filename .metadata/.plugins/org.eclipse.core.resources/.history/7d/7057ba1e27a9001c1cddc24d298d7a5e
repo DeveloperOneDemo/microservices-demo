@@ -1,0 +1,5 @@
+package com.departmentservice.dao;
+
+public interface DepartmentRepository {
+
+}
